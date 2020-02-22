@@ -1,0 +1,68 @@
+{
+  // file exclusion pattern
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/.vscode": true,
+    "**/.terraform": true,
+    "**/.__pycache__": true
+  },
+
+  // editor general settings
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.renderControlCharacters": true,
+  "editor.fontSize": 13,
+  "workbench.editor.enablePreview": false,
+  "files.insertFinalNewline": true,
+  "explorer.autoReveal": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+
+  // C, C++
+  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4}",
+
+  // go
+  "go.formatTool": "goimports",
+
+  // javascript
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+
+  // typescript
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // markdown
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+
+  // yaml
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+
+  // html
+  "html.format.enable": false,
+
+  // rust
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+
+  // terraform
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.codeActionsOnSave": {
+      "source.formatAll.terraform": "explicit"
+    }
+  },
+}
