@@ -1,0 +1,12 @@
+[user]
+	email = watanabe@osakafu-u.net
+	name = atsuyaw
+	signingkey = D20A66AE29A2D6FE02AFFDF02056E8DF1E7ECA55
+[gpg "ssh"]
+	allowedSignerFile = /home/atsuyaw/.ssh/git_SignKey
+[commit]
+	gpgsign = true
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main

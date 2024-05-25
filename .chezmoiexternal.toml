@@ -1,0 +1,16 @@
+[".config/foot/themes/nord"]
+    type = "file"
+    url = "https://codeberg.org/dnkl/foot/raw/branch/master/themes/nord"
+
+[".config/hypr/Meptl.png"]
+    type = "file"
+    url = "https://hyprland.org/imgs/blog/contestWinners/Meptl.png"
+
+[".config/inkscape/palettes/NatureColorPalette"]
+    type = "git-repo"
+    url = "https://github.com/atsuyaw/NatureColorPalette"
+    refreshPeriod = "500h"
+    exclude = ["ghMat"]
+    clone.args = ["--depth", "1", "-b", "main"]
+    stripComponents = 1
+
