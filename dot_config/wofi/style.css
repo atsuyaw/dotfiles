@@ -1,0 +1,71 @@
+@define-color background #222;
+@define-color text  #999;
+@define-color accent #333;
+@define-color highlight #2257A0;
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+* {
+  font-family: pixeled;
+  font-size: 14px;
+}
+
+window {
+    margin: 0px;
+    border: 1px solid @background;
+    background-color: @background;
+    opacity: 0.85;
+    animation: slidein 0.5s ease-in-out both;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: @text;
+    background-color: @background;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: @background;
+    opacity: 1;
+    animation: fadeIn 0.5s ease-in-out both;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: @background;
+    opacity: 1;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+  margin: 5px;
+  border: none;
+  color: @text;
+}
+
+#entry:selected {
+    background-color: @accent;
+    border: none;
+}
