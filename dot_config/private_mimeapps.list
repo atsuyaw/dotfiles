@@ -1,15 +1,21 @@
 [Added Associations]
-application/x-desktop=vivaldi-stable.desktop;gvim.desktop;
+application/x-desktop=vivaldi-stable.desktop;okularApplication_txt.desktop;gvim.desktop;code-oss.desktop;vim.desktop;
+image/jpeg=org.kde.gwenview.desktop;
 image/svg+xml=org.inkscape.Inkscape.desktop;
+image/tiff=okularApplication_kimgio.desktop;org.kde.gwenview.desktop;
+text/x-tex=code-oss.desktop;
 application/pdf=org.pwmt.zathura-pdf-poppler.desktop;
-text/x-log=nvim.desktop;
+text/x-log=code-oss.desktop;nvim.desktop;
 video/mp4=mpv.desktop;vivaldi-stable.desktop;
-image/png=gimp.desktop;vivaldi-stable.desktop;
-image/bmp=vivaldi-stable.desktop;thunar.desktop;org.pwmt.zathura-pdf-poppler.desktop;org.pwmt.zathura.desktop;
+image/png=gimp.desktop;vivaldi-stable.desktop;org.kde.gwenview.desktop;
+image/gif=vivaldi-stable.desktop;org.kde.gwenview.desktop;
+image/bmp=vivaldi-stable.desktop;thunar.desktop;org.pwmt.zathura-pdf-poppler.desktop;org.pwmt.zathura.desktop;org.kde.gwenview.desktop;
+image/webp=org.kde.gwenview.desktop;
 font/ttf=org.codeberg.dnkl.foot.desktop;
 
 [Default Applications]
 application/x-desktop=vivaldi-stable.desktop;
 application/pdf=org.pwmt.zathura-pdf-poppler.desktop
 video/mp4=mpv.desktop
-
+image/png=org.kde.gwenview.desktop
+font/ttf=org.codeberg.dnkl.foot.desktop
