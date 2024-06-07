@@ -5,7 +5,7 @@
     // "width": 1280, // Waybar width
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["custom/launcher", "sway/workspaces", "sway/scratchpad", "sway/mode", "custom/media", "custom/separator", "sway/window"],
+    "modules-left": ["custom/launcher", "hyprland/workspaces", "hyprland/scratchpad", "hyprland/mode", "custom/media", "custom/separator", "hyprland/window"],
     "modules-center": ["clock"],
     "modules-right": ["cpu","temperature","backlight", "pulseaudio", "battery", "network", "custom/nmvpn", "custom/separator", "tray"],
 
@@ -17,7 +17,7 @@
   "custom/separator":{
     "format": "|"
   },
-	"sway/workspaces": {
+	"hyprland/workspaces": {
 		"disable-scroll": true,
 		"all-outputs": true,
 		"format": "{}",
@@ -32,10 +32,10 @@
             "unlocked": "󰿆"
         }
     },
-    "sway/mode": {
+    "hyprland/mode": {
         "format": "{}"
     },
-    "sway/scratchpad": {
+    "hyprland/scratchpad": {
         "format": "{icon}  {count}",
         "show-empty": false,
         "format-icons": ["", "󱂬"],
@@ -68,7 +68,7 @@
         "tooltip-format": "MPD (connected)",
         "tooltip-format-disconnected": "MPD (disconnected)"
     },
-    "sway/window":{
+    "hyprland/window":{
       "format": "{title}",
       "max-length": 50,
       "rewrite": {
