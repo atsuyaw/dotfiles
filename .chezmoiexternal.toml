@@ -14,3 +14,8 @@
     clone.args = ["--depth", "1", "-b", "main"]
     stripComponents = 1
 
+[".config/tmux/nordfox.tmux"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/EdenEast/nightfox.nvim/main/extra/nordfox/nordfox.tmux"
+    refreshPeriod = "500h"
+
