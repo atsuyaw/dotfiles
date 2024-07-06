@@ -6,6 +6,7 @@
             "C-m": "commit-unhandled",
             "\b": "delete",
             "C-h": "delete",
+            "/": "abbrev",
             " ": "next-candidate",
             "\t": "complete",
             "C-i": "complete",
